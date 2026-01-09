@@ -1,150 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rose Marie Vargas | Accounting Professional</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #fdfaf5;
-      color: #1f2d3d;
-    }
-    header {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-      align-items: center;
-      padding: 4rem 6%;
-      background: #f4b942;
-      border-radius: 0 0 80px 80px;
-    }
-    header img {
-      width: 320px;
-      border-radius: 20px;
-      box-shadow: 0 20px 40px rgba(0,0,0,.25);
-    }
-    .hero-text h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-    .hero-text span {
-      color: #fff;
-    }
-    .hero-text p {
-      margin: 1rem 0;
-      font-size: 1.1rem;
-      max-width: 500px;
-    }
-    .stats {
-      display: flex;
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-    .stat {
-      background: #fff;
-      padding: 1rem 1.5rem;
-      border-radius: 16px;
-      text-align: center;
-      box-shadow: 0 10px 20px rgba(0,0,0,.15);
-    }
-    section {
-      padding: 4rem 6%;
-      max-width: 1200px;
-      margin: auto;
-    }
-    h2 {
-      font-size: 2.2rem;
-      margin-bottom: 1.5rem;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: #fff;
-      padding: 2rem;
-      border-radius: 24px;
-      box-shadow: 0 12px 30px rgba(0,0,0,.12);
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #1f2d3d;
-      color: #fff;
-      margin-top: 4rem;
-    }
-    a { color: #1f2d3d; font-weight: 600; text-decoration: none; }
-    @media (max-width: 900px) {
-      header { grid-template-columns: 1fr; text-align: center; }
-      header img { margin: auto; }
-      .stats { justify-content: center; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rose Marie Vargas | Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:Poppins,sans-serif;background:#fdfaf5;color:#1f2d3d}
+nav{display:flex;justify-content:space-between;align-items:center;padding:1.5rem 6%;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+nav a{margin-left:1.5rem;text-decoration:none;font-weight:600;color:#1f2d3d}
+header{display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:4rem 6%;background:#f4b942;border-radius:0 0 80px 80px}
+header img{width:320px;border-radius:24px;box-shadow:0 20px 40px rgba(0,0,0,.25)}
+.hero h1{font-size:3rem;margin:0}
+.hero span{color:#fff}
+.stats{display:flex;gap:1.5rem;margin-top:2rem}
+.stat{background:#fff;padding:1rem 1.5rem;border-radius:16px;text-align:center;box-shadow:0 10px 20px rgba(0,0,0,.15)}
+section{padding:4rem 6%;max-width:1200px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem}
+.card{background:#fff;padding:2rem;border-radius:24px;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+footer{text-align:center;padding:2rem;background:#1f2d3d;color:#fff}
+@media(max-width:900px){header{grid-template-columns:1fr;text-align:center}header img{margin:auto} .stats{justify-content:center}}
+</style>
 </head>
 <body>
-
+<nav>
+<strong>Rose Marie Vargas</strong>
+<div>
+<a href="index.html">Home</a>
+<a href="experience.html">Experience</a>
+<a href="about.html">About</a>
+</div>
+</nav>
 <header>
-  <div class="hero-text">
-    <h1>Hey there, <br><span>I’m Rose Marie</span></h1>
-    <p>
-      I’m an Accounting & Finance professional with strong experience in Accounts Receivable, Accounts Payable, and General Ledger. I help organizations stay accurate, compliant, and financially organized.
-    </p>
-    <div class="stats">
-      <div class="stat"><strong>2+ Years</strong><br>Experience</div>
-      <div class="stat"><strong>C1</strong><br>English Level</div>
-      <div class="stat"><strong>Cum Laude</strong><br>Graduate</div>
-    </div>
-  </div>
-  <div>
-    <img src="profile.jpg" alt="Rose Marie Vargas">
-  </div>
+<div class="hero">
+<h1>Hey there,<br><span>I’m Rose Marie</span></h1>
+<p>Accounting & Finance professional specializing in AR, AP, and General Ledger operations with strong analytical and leadership skills.</p>
+<div class="stats">
+<div class="stat"><strong>5+ Years</strong><br>Experience</div>
+<div class="stat"><strong>C1</strong><br>English</div>
+<div class="stat"><strong>Cum Laude</strong><br>Graduate</div>
+</div>
+</div>
+<img src="profile.jpg" alt="Rose Marie Vargas">
 </header>
-
 <section>
-  <h2>What I Do</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Accounts Receivable</h3>
-      <p>Invoice processing, customer payments, reconciliation, and accurate sales tracking.</p>
-    </div>
-    <div class="card">
-      <h3>Accounts Payable</h3>
-      <p>Purchase orders, supplier invoices, VAT computation, and audit support.</p>
-    </div>
-    <div class="card">
-      <h3>General Ledger</h3>
-      <p>Journal entries, trial balance preparation, bank reconciliation, and reporting.</p>
-    </div>
-  </div>
+<h2>What I Do</h2>
+<div class="cards">
+<div class="card"><h3>Accounts Receivable</h3><p>Invoice processing, reconciliation, customer payments.</p></div>
+<div class="card"><h3>Accounts Payable</h3><p>Supplier invoices, VAT computation, audit assistance.</p></div>
+<div class="card"><h3>General Ledger</h3><p>Journals, trial balance, bank reconciliation.</p></div>
+</div>
 </section>
-
-<section>
-  <h2>Why Work With Me</h2>
-  <div class="cards">
-    <div class="card">Detail-oriented and highly analytical</div>
-    <div class="card">Strong leadership and communication skills</div>
-    <div class="card">Advanced Excel & accounting systems expertise</div>
-    <div class="card">Calm and reliable under pressure</div>
-  </div>
-</section>
-
-<section>
-  <h2>Get In Touch</h2>
-  <div class="card">
-    <p>Email: vargasrosemarie028@gmail.com</p>
-    <p>Phone: 0915 288 3422</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/rose-marie-vargas-8bab58247/" target="_blank">View Profile</a></p>
-  </div>
-</section>
-
-<footer>
-  © 2026 Rose Marie Vargas · Professional Portfolio
-</footer>
-
+<footer>© 2026 Rose Marie Vargas</footer>
 </body>
 </html>
